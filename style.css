@@ -61,8 +61,9 @@ ul {
     margin-top: 10px;
 }
 
+
 /* Hero Section */
-.first {
+.first-section {
     background-color: #F2D5BB;
     display: flex;
     align-items: center;
@@ -120,14 +121,43 @@ ul {
     border-radius: 20px;
 }
 
-.second h2 {
+.second-section h2 {
     color: #1f2937;
     font-size: 36px;
     font-weight: extra-bold;
-    margin-bottom: 30px;
+    margin: 40px 0px;
 }
 
 .text p {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+/* Quote Section */
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 130px 0px;
+    margin-top: 60px;
+}
+
+.third-section h2 {
+    font-size: 36px;
+    margin-left: 20px;
+    font-weight: lighter;
+    text-align: left;
+    font-style: italic;
+    padding: 0px 150px;
+}
+
+.third-section strong {
+    text-align: right;
+    padding-left: 280px;
+}
+
+
+/* Call to Action */
+.fourth-section {
+    background-color: #59422E;
 }
