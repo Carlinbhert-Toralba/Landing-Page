@@ -13,11 +13,12 @@ button {
     /* Green */
     border: none;
     color: white;
+    font-weight: bold;
     padding: 8px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
     margin: ;
     cursor: pointer;
     border-radius: 10px;
@@ -26,7 +27,7 @@ button {
 
 button:hover {
     background-color: #BF9169;
-    color: white;
+    color: black;
 }
 
 
@@ -104,8 +105,29 @@ ul {
 
 
 /* Information Section */
-.second img {
-    height: auto;
-    width: 100px;
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    flex: 1;
+}
+
+.image-container img {
     object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border: 6px solid #59422E;
+    border-radius: 20px;
+}
+
+.second h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin-bottom: 30px;
+}
+
+.text p {
+    display: flex;
+    flex-wrap: wrap;
 }
